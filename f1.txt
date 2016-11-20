@@ -1,0 +1,16 @@
+(lp0
+S'name1'
+p1
+aS'name2'
+p2
+aS'name3'
+p3
+a.(dp0
+S'id'
+p1
+I1
+sS'names'
+p2
+S'name1'
+p3
+s.
