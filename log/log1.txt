@@ -1,0 +1,73 @@
+WARNING:root:Warn mesaage
+ERROR:root:Error message
+ERROR:root:exception message
+None
+WARNING;Warn mesaage
+ERROR;Error message
+ERROR;exception message
+None
+2016-12-17 15:34:22,810-->WARNING;Warn mesaage
+2016-12-17 15:34:22,816-->ERROR;Error message
+2016-12-17 15:34:22,817-->ERROR;exception message
+None
+2016-12-17 15:35:50,768-->DEBUG;debug message
+2016-12-17 15:35:50,781-->INFO;info meaage
+2016-12-17 15:35:50,786-->WARNING;Warn mesaage
+2016-12-17 15:35:50,786-->ERROR;Error message
+2016-12-17 15:35:50,787-->ERROR;exception message
+None
+2016-12-17 15:40:21,836-->INFO;program started
+2016-12-17 15:40:21,841-->INFO;program ended
+2016-12-17 15:44:42,950-->INFO;program started
+2016-12-17 15:44:42,963-->INFO;taking info from user
+2016-12-17 15:44:46,483-->INFO;function statred
+2016-12-17 15:44:46,488-->INFO;Result of the function: 0
+2016-12-17 15:44:46,488-->INFO;function ended
+2016-12-17 15:44:46,489-->INFO;program ended
+2016-12-17 15:45:03,828-->INFO;program started
+2016-12-17 15:45:03,833-->INFO;taking info from user
+2016-12-17 15:45:22,073-->INFO;program started
+2016-12-17 15:45:22,075-->INFO;taking info from user
+2016-12-17 15:45:23,752-->WARNING;app expecting digits but you have given somehtig else
+2016-12-17 15:45:36,360-->INFO;program started
+2016-12-17 15:45:36,369-->INFO;taking info from user
+2016-12-17 15:45:37,837-->WARNING;app expecting digits but you have given somehtig else
+2016-12-17 15:45:37,837-->ERROR;invalid literal for int() with base 10: 'sda'
+Traceback (most recent call last):
+  File "prog.py", line 22, in <module>
+    a=int(a)
+ValueError: invalid literal for int() with base 10: 'sda'
+2016-12-17 15:45:37,838-->INFO;function statred
+2016-12-17 15:45:37,838-->ERROR;unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "prog.py", line 10, in div
+    res = a/b
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+2016-12-17 15:45:37,838-->INFO;Result of the function: 
+2016-12-17 15:45:37,838-->INFO;function ended
+2016-12-17 15:45:37,838-->INFO;program ended
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2016-12-17 15:47:49,541-->WARNING;app expecting digits but you have given somehtig else
+2016-12-17 15:47:49,541-->ERROR;invalid literal for int() with base 10: 'qwe'
+Traceback (most recent call last):
+  File "prog.py", line 22, in <module>
+    a=int(a)
+ValueError: invalid literal for int() with base 10: 'qwe'
+2016-12-17 15:47:49,548-->ERROR;unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "prog.py", line 10, in div
+    res = a/b
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+2016-12-17 15:52:04,977-->WARNING;app expecting digits but you have given somehtig else
+2016-12-17 15:52:04,978-->ERROR;invalid literal for int() with base 10: 'sdfs'
+Traceback (most recent call last):
+  File "prog.py", line 26, in <module>
+    b=int(b)
+ValueError: invalid literal for int() with base 10: 'sdfs'
+2016-12-17 15:52:04,982-->ERROR;unsupported operand type(s) for /: 'int' and 'str'
+Traceback (most recent call last):
+  File "prog.py", line 13, in div
+    res = a/b
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
